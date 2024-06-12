@@ -9,6 +9,7 @@
 }
 .text{
     width: 75%;
+    padding: 50px;
 }
 input{
     margin-top: 20px;
@@ -61,5 +62,21 @@ a{
     background-color: #da211c;
     transform: rotate(30deg);
     z-index: -1;
+}
+@media 
+only screen and (max-width: 760px){
+  .login-page-rectangle{
+    display: none;
+  } 
+  .login-page-1{
+
+    position: relative;
+    overflow: hidden;
+}
+.text{
+    width: 100%;
+    padding: 20px;
+}
+
 }
 
