@@ -1,0 +1,65 @@
+
+.login-page-1{
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.login-page-1 .row{
+    height: 100%;
+}
+.text{
+    width: 75%;
+}
+input{
+    margin-top: 20px;
+    height: 40px;
+    box-shadow: none;
+
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  box-shadow: none;
+}
+button{
+    margin-top: 20px;
+    height: 40px;
+    width: 50%;
+    background-color: #da211c;
+    color: white;
+    border: none;
+}
+h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  -webkit-text-stroke: 1px #da211c;
+  text-stroke: 2px #da211c;
+  color: transparent;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.688);
+}
+
+.image-container {
+  width: 400px; /* Adjust the width as needed */
+  height: 400px; /* Adjust the height as needed */
+  background-image: url('./images/burger.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image within the container */
+}
+
+.login-page-rectangle{
+
+    width: 650px;
+    height: 140vh;
+    position: absolute;
+    right: -250px;
+    bottom: -250px;
+    background-color: #da211c;
+    transform: rotate(30deg);
+    z-index: -1;
+}
+
